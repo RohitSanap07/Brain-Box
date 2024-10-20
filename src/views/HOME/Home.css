@@ -1,0 +1,50 @@
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+}
+.heading
+{
+    font-size: 60px;
+    filter: drop-shadow(black);
+}
+.feature-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.box-card {
+border: 50px blue;
+
+}
+
+
+@media screen and (max-width:500px)
+ {
+    .heading
+    {
+        font-size: 20px;
+     
+    }
+    .tagline-highlight
+    {
+        display: block;
+    }
+    .tagline
+    {
+        font-size: 15px;
+    }
+    .btn-container
+    {
+        background-color: white;
+        width: 100%;
+        position:fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+}
