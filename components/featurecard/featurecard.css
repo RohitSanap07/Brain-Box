@@ -1,0 +1,38 @@
+.feature-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.feature-card
+{
+background-color:#99b9ff;
+ width: 260px;
+ padding:15px 20px;
+ box-shadow: 0px 0px 10px #1a62ff;
+border-radius: 5px;
+cursor: pointer;
+margin:50px 20px;
+}
+.feature-card img{
+    height: 50px;
+    display: block;
+    margin: 20px auto;
+}
+.feature-text
+{
+    font-size: 17px;
+    color: #002880;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+@media screen and (max-width:500px)
+ {
+    .feature-card
+    {
+       margin-top: 20px;
+    }
+}
